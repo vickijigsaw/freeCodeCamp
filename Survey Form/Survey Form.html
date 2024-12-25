@@ -34,10 +34,39 @@
     </fieldset>
     <fieldset>
       <label>Would you recommend freeCodeCamp to a friend?</label>
-      <label><input type="radio" /> Definitely</label>
-      <label><input type="radio" /> Maybe</label>
-      <label><input type="radio" /> Not sure</label>
+      <label><input type="radio" name="recommendation" value="definitely" checked /> Definitely</label>
+      <label><input type="radio" name="recommendation" value="maybe" /> Maybe</label>
+      <label><input type="radio" name="recommendation" value="notsure" /> Not sure</label>
     </fieldset>
+    <fieldset>
+      <label>What is your favorite feature of freeCodeCamp?</label>
+      <select id="dropdown">
+        <option value="selectanoption">Select an option</option>
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="openspace">Open space</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <label>What would you like to see improved? (Check all that apply)</label>
+      <label><input type="checkbox" value="frontend" /> Front-end Projects</label>
+      <label><input type="checkbox" value="backend"  /> Back-end Projects</label>
+      <label><input type="checkbox" value="datavisualization"  /> Data Visualization</label>
+      <label><input type="checkbox" value="challenges"  /> Challenges</label>
+      <label><input type="checkbox" value="community"  /> Open Source Community</label>
+      <label><input type="checkbox" value="gitter"  /> Gitter help rooms</label>
+      <label><input type="checkbox" value="vids"  /> Videos</label>
+      <label><input type="checkbox" value="meet"  /> City Meetups</label>
+      <label><input type="checkbox" value="wiki"  /> Wiki</label>
+      <label><input type="checkbox" value="forum"  /> Forum</label>
+      <label><input type="checkbox" value="adds"  /> Additional Courses</label>
+    </fieldset>
+    <fieldset>
+      <label>Any comments or suggestions?</label>
+      <label><textarea placeholder=""Any comments or suggestions"></textarea></label>
+    </fieldset>
+    <label><input type="submit" /></label>
 </form>
 </body>
 </html>
